@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="icon" href="icon.png" type="image/x-icon"/>
+        <link rel="shortcut icon" href="icon.png" type="image/x-icon"/>
+        <title>OsmanHub</title>
+        <script src="https://unpkg.com/vue"></script>
+        <link rel="stylesheet" href="https://unpkg.com/spectre.css/dist/spectre.min.css">
+        <link rel="stylesheet" href="https://unpkg.com/spectre.css/dist/spectre-exp.min.css">
+        <link rel="stylesheet" href="https://unpkg.com/spectre.css/dist/spectre-icons.min.css">
+    </head>
+<body width="800"height="280">
+
+    <div id="anadiv" class="mx-2 my-2">
+      <form action="login.php" method="post">
+        <div class="input-group input-inline float-right">
+          <button class="btn btn-primary input-group-btn" name="logout">Logout</button>
+        </div>
+      </form>
+    </div>
+    <div align="center">
+      <a href="index.php"><img src="icon.png" width="90" height="90"></a>
+      <a href="index.php"><img src="banner.png" width="200"></a>
+    </div>
+    <div class="divider"></div>
+    <a href="index.php"><i class="icon icon-2x icon-arrow-left"></i></a>
+    <div class="columns">
+        <div class="column col-6 col-xs-12">
+          <div class="panel">
+            <div class="panel-header text-center">
+              <figure class="avatar avatar-lg">
+                <img src="avatar-1.png" alt="Avatar">
+              </figure>
+              <div class="panel-title h5 mt-10">Osman Cansız</div>
+              <div class="panel-subtitle">Back-end Developer</div>
+            </div>
+            <nav class="panel-nav">
+              <ul class="tab tab-block">
+                <li class="tab-item active">
+                  <a href="#panels">
+                    Profil
+                  </a>
+                </li>
+                <li class="tab-item">
+                  <a href="#panels" class="c-not-allowed">
+                    Dosyalar
+                  </a>
+                </li>
+                <li class="tab-item">
+                  <a href="#panels" class="c-not-allowed">
+                    Konular
+                  </a>
+                </li>
+              </ul>
+            </nav>
+            <div class="panel-body">
+              <div class="tile tile-centered">
+                <div class="tile-content">
+                  <div class="tile-title">E-mail</div>
+                  <div class="tile-subtitle">need.mtw@outlook.com</div>
+                </div>
+                <div class="tile-action">
+                  <button class="btn btn-link btn-action btn-lg"><i class="icon icon-edit"></i></button>
+                </div>
+              </div><br>
+              <div class="tile tile-centered">
+                <div class="tile-content">
+                  <div class="tile-title">GitHub</div>
+                  <div class="tile-subtitle">osmancansiz</div>
+                </div>
+                <div class="tile-action">
+                  <button class="btn btn-link btn-action btn-lg"><i class="icon icon-edit"></i></button>
+                </div>
+              </div><br>
+              <div class="tile tile-centered">
+                <div class="tile-content">
+                  <div class="tile-title">Lokasyon</div>
+                  <div class="tile-subtitle">Kavacık,Beykoz/İstanbul</div>
+                </div>
+                <div class="tile-action">
+                  <button class="btn btn-link btn-action btn-lg"><i class="icon icon-edit"></i></button>
+                </div>
+              </div>
+            </div>
+            <div class="panel-footer">
+              <button class="btn btn-primary btn-block">Kaydet</button>
+            </div>
+          </div>
+        </div>
+        <div class="column col-6 col-xs-12">
+          <div class="panel">
+            <div class="panel-header">
+              <div class="panel-title h6">Kullanıcıya Gelen Yorumlar</div>
+            </div>
+            <div class="panel-body">
+              <div class="tile">
+                <div class="tile-icon">
+                  <figure class="avatar">
+                    <img src="avatar-1.png" alt="Avatar">
+                  </figure>
+                </div>
+                <div class="tile-content">
+                  <p class="tile-title">Osman Cansız</p>
+                  <p class="tile-subtitle">Hepinizden yorumlarınızı bekliyorum...</p>
+                </div>
+              </div>
+              <div class="tile">
+                <div class="tile-icon">
+                  <figure class="avatar">
+                    <img src="avatar-2.png" alt="Avatar">
+                  </figure>
+                </div>
+                <div class="tile-content">
+                  <p class="tile-title">A.Kadir Can</p>
+                  <p class="tile-subtitle">Olm böyle profilmi olur lan asadhvasgd</p>
+                </div>
+              </div>
+              <div class="tile">
+                <div class="tile-icon">
+                  <figure class="avatar" data-initial="ÜD"></figure>
+                </div>
+                <div class="tile-content">
+                  <p class="tile-title">Ümit Dursun</p>
+                  <p class="tile-subtitle">Gerek fiziksel gerekse mental açıdan güzel bir profil oluşturmuşsun.Başarıların devamını diler gelecek projelerinde kolaylıklar ile gerçekleştirmeni temenni ederim.</p>
+                </div>
+              </div>
+              <div class="tile">
+                <div class="tile-icon">
+                  <figure class="avatar">
+                    <img src="avatar-4.png" alt="Avatar">
+                  </figure>
+                </div>
+                <div class="tile-content">
+                  <p class="tile-title">F.Alperen Konukçu</p>
+                  <p class="tile-subtitle">Beyler ne zaman buluşuyoruz?</p>
+                </div>
+              </div>
+              <div class="tile">
+                <div class="tile-icon">
+                  <figure class="avatar">
+                    <img src="avatar-3.png" alt="Avatar">
+                  </figure>
+                </div>
+                <div class="tile-content">
+                  <p class="tile-title">Batuhan Kızıl</p>
+                  <p class="tile-subtitle">Kullandığın JS Kütüphanesini bizede paylaşırmısın.</p>
+                </div>
+              </div>
+            </div>
+            <div class="panel-footer">
+              <div class="input-group">
+                <input type="text" class="form-input" placeholder="Sende birşeyler eklesene">
+                <button class="btn btn-primary input-group-btn">Gönder</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+</body>
+</html>
